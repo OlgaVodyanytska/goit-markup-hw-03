@@ -166,7 +166,7 @@ ul {
 .advantage-items {
   display: flex;
   justify-content: space-around;
-  flex-basis: calc((100% - 90px) / 4);
+  flex-basis: calc((100% - 120px) / 4);
   margin: 0 auto;
   padding-right: 0px;
   padding-left: 0px;
@@ -205,11 +205,12 @@ ul {
   padding-bottom: 50px;
 }
 .direction-items .item:not(:first-child) {
-  padding-left: 30px;
+  margin-left: 30px;
 }
 .direction-items {
   display: flex;
   margin: 0 auto;
+  flex-basis: calc((100% - 90px) / 3);
   padding-left: 0px;
   padding-bottom: 94px;
 
@@ -239,6 +240,7 @@ ul {
 .team-items {
   display: flex;
   margin: 0 auto;
+  flex-basis: calc((100% -120px) / 4);
   padding-left: 0px;
   padding-bottom: 94px;
 }
@@ -353,7 +355,7 @@ a.contacts-footer {
 .project-cards {
   display: flex;
   flex-wrap: wrap;
-  flex-basis: calc((100% - 60px) / 3);
+  flex-basis: calc((100% - 90px) / 3);
   margin: 0 auto;
   padding-left: 0px;
   padding-bottom: 94px;
