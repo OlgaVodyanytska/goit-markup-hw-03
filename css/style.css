@@ -114,15 +114,14 @@ img {
 }
 
 .hero {
+  padding-top: 200px;
+  padding-bottom: 200px;
   background-color: rgba(47, 48, 58, 1);
 }
 .container-hero {
-  display: inlone-block;
   text-align: center;
-  padding-top: 200px;
-  padding-bottom: 200px;
 }
-.hero-text {
+.hero-title {
   margin-bottom: 30px;
   color: var(--special-color);
   font-family: Roboto;
@@ -134,7 +133,7 @@ img {
   text-transform: uppercase;
 }
 
-.button-service {
+.hero-button {
   display: inline-block;
   text-align: center;
   padding: 10px 32px;
@@ -153,11 +152,14 @@ img {
 .section {
   padding: 94px 0;
 }
-.advantage-title {
-  display: none;
-  margin: 0 auto;
-}
 
+.visually-hidden {
+  position: absolute;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+}
 .advantage-title,
 .directions-titles,
 .team-title,
@@ -173,7 +175,7 @@ img {
   display: flex;
 }
 .advantage-items .item {
-  flex-basis: calc((100% - 120px) / 4);
+  flex-basis: calc((100% - 90px) / 4);
 }
 .advantage-items .item:not(:first-child) {
   margin-left: 30px;
@@ -195,20 +197,18 @@ img {
 
 .section-version {
   padding-top: 0px;
-  padding-bottom: 0px;
 } 
 .directions-titles {
   margin-bottom: 50px;
 }
 .direction-items .item {
-  flex-basis: calc((100% - 90px) / 3);
+  flex-basis: calc((100% - 60px) / 3);
 }
 .direction-items .item:not(:first-child) {
   margin-left: 30px;
 }
 .direction-items {
   display: flex;
-  justify-content: space-between;
 }
 
 .our-team {
@@ -229,11 +229,9 @@ img {
 }
 .team-items {
   display: flex;
-  justify-content: space-between;
-  padding-left: 0px;
 }
 .team-items .item {
-  flex-basis: calc((100% - 120px) / 4);
+  flex-basis: calc((100% - 90px) / 4);
 }
 .team-items .item:not(:first-child) {
   margin-left: 30px;
@@ -256,10 +254,6 @@ img {
 .footer {
   padding: 60px 0;
   background-color: rgba(47, 48, 58, 1);
-}
-.container-footer {
-  display: flex;
-  flex-direction: column;
 }
 .logo-footer {
   display: block;
@@ -284,9 +278,6 @@ a.contacts-footer {
   color: rgba(255, 255, 255, 0.6);
 }
 
-.portfolio-titles {
-  display: none;
-}
 .filter-buttons {
   display: flex;
   justify-content: center;
@@ -321,7 +312,7 @@ a.contacts-footer {
 }
 .project-item {
   box-sizing: border-box;
-  flex-basis: calc((100% - 90px) / 3);
+  flex-basis: calc((100% - 60px) / 3);
   background-color: #FFFFFF;
   border: 1px solid #EEEEEE;
 }
